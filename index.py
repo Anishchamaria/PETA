@@ -24,7 +24,7 @@ Accounts = {}
 
 # ---------------------------------- HOME ----------------------------------
 
-@app.route('/tcp/')
+@app.route('/')
 def home():
     print("Yes")
     # message = Mail(
